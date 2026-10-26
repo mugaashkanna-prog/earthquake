@@ -1,0 +1,34 @@
+time,latitude,longitude,depth,mag,magType,place,id
+2019-03-14T08:21:10.000Z,35.2,139.7,30.5,4.5,mb,"45 km E of Tokyo, Japan",sample001
+2019-05-02T14:02:55.000Z,-33.4,-70.6,55.0,5.2,mww,"Santiago, Chile",sample002
+2019-07-06T03:19:53.000Z,35.7,-117.5,8.0,7.1,mww,"Ridgecrest, California",sample003
+2019-09-21T11:45:00.000Z,38.1,22.4,12.0,3.8,ml,"Western Greece",sample004
+2019-11-08T22:30:41.000Z,-6.2,106.8,70.0,5.0,mb,"Java, Indonesia",sample005
+2020-01-12T05:10:09.000Z,18.0,-66.5,10.0,6.4,mww,"Puerto Rico",sample006
+2020-01-28T19:55:30.000Z,19.4,-78.8,14.0,7.7,mww,"Cayman Islands region",sample007
+2020-02-13T09:00:00.000Z,36.9,28.2,25.0,3.0,ml,"Southwestern Turkey",sample008
+2020-03-22T05:24:02.000Z,45.9,16.0,10.0,5.3,mww,"Zagreb, Croatia",sample009
+2020-04-18T12:12:12.000Z,28.1,84.7,15.0,4.5,mb,"Central Nepal",sample010
+2020-06-23T12:29:04.000Z,16.0,-96.1,20.0,7.4,mww,"Oaxaca, Mexico",sample011
+2020-08-04T16:00:00.000Z,33.9,35.5,10.0,2.9,ml,"Lebanon",sample012
+2020-10-30T11:51:27.000Z,37.9,26.8,21.0,7.0,mww,"Aegean Sea",sample013
+2020-12-18T07:00:00.000Z,61.3,-150.0,45.0,4.0,ml,"Southern Alaska",sample014
+2021-02-10T13:19:56.000Z,-23.0,171.6,10.0,7.7,mww,"Loyalty Islands",sample015
+2021-03-04T19:28:33.000Z,-29.7,-177.8,20.0,8.1,mww,"Kermadec Islands",sample016
+2021-05-21T18:04:12.000Z,34.6,98.3,10.0,7.3,mww,"Qinghai, China",sample017
+2021-07-29T06:15:49.000Z,55.4,-157.9,32.0,8.2,mww,"Alaska Peninsula",sample018
+2021-08-14T12:29:08.000Z,18.4,-73.5,10.0,7.2,mww,"Haiti region",sample019
+2021-10-02T09:30:00.000Z,40.1,29.0,9.0,2.7,ml,"Northwestern Turkey",sample020
+2022-01-05T21:00:00.000Z,35.0,135.0,15.0,3.5,ml,"Western Honshu, Japan",sample021
+2022-03-16T14:36:30.000Z,37.7,141.6,60.0,7.3,mww,"Fukushima, Japan",sample022
+2022-06-21T21:32:00.000Z,33.0,69.5,10.0,5.9,mww,"Eastern Afghanistan",sample023
+2022-09-19T18:05:00.000Z,18.4,-103.3,15.0,7.6,mww,"Michoacan, Mexico",sample024
+2022-11-09T03:00:00.000Z,-8.1,118.7,22.0,5.0,mb,"Sumbawa, Indonesia",sample025
+2022-12-20T10:34:24.000Z,40.5,-124.4,18.0,6.4,mw,"Offshore Northern California",sample026
+2020-09-09T10:00:00.000Z,10.5,125.0,35.0,5.5,mb,"Philippines (out of order row)",sample027
+2021-01-01T00:00:00.000Z,-1.5,120.0,40.0,5.0,mb,"Sulawesi, Indonesia",sample028
+2020-05-05T05:05:05.000Z,0.0,0.0,5.0,,ml,"INVALID: missing magnitude",bad001
+2020-05-06T06:06:06.000Z,0.0,0.0,5.0,abc,ml,"INVALID: non-numeric magnitude",bad002
+not-a-date,0.0,0.0,5.0,4.4,ml,"INVALID: bad timestamp",bad003
+2020-04-18T12:12:12.000Z,28.1,84.7,15.0,4.5,mb,"DUPLICATE of sample010",sample010
+2020-05-07T07:07:07.000Z,0.0,0.0,5.0,99,ml,"INVALID: impossible magnitude",bad004
